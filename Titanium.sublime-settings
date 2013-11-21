@@ -9,7 +9,7 @@
 	"androidSDK": "/opt/android-sdk",
 	// Extra Settings for the iOS Simulator
 	// If you dont want to set them, make the values empty
-	"iosVersion": "" //eg. 6.1
-	"outputDir":"" //specify an output dir for dist builds
+	"iosVersion": "", //eg. 6.1
+	"outputDir":"", //specify an output dir for dist builds
 	"iosCertsDir":"unknown" // specify a folder to look for certs instead of the keychain
 }
