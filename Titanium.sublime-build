@@ -1,4 +1,25 @@
 {
-	"target": "titanium",
-	"working_dir":"$ProjectDir"
+    "selector": "source.js, source.rjss",
+    "working_dir": "${project_path:${folder}}",
+    "target":"titanium",
+    "keyfiles":["tiapp.xml"],
+    "variants": [
+        { 
+            "target":"titanium",
+            "name": "Titanium Last Command",
+            "command":"titaniumMostRecent"
+        },
+
+        { 
+            "target":"titanium",
+            "name": "Titanium History", 
+            "command":"titaniumMostRecents"
+        },
+
+        { 
+            "target":"titanium",
+            "name": "Titanium Clean",
+            "command":"clean"
+        }
+    ]
 }

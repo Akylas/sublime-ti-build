@@ -1,0 +1,8 @@
+[
+   // HTML Compact Format
+   {
+      "caption": "Format: Compact",
+      "command": "reg_replace",
+      "args": {"replacements": ["trimwhitespaceandnewlines"]}
+   }
+]

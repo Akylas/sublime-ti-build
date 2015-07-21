@@ -1,0 +1,6 @@
+[
+    { "keys": ["super+shift+r"], "command": "build", "args": {"variant": "Titanium History", "build_system": "Packages/Titanium Build/Titanium.sublime-build"}},
+    { "keys": ["super+shift+c"], "command": "build", "args": {"variant": "Titanium Clean", "build_system": "Packages/Titanium Build/Titanium.sublime-build"}},
+    { "keys": ["super+r"], "command": "build", "args": {"variant": "Titanium Last Command", "build_system": "Packages/Titanium Build/Titanium.sublime-build"}}
+
+]
